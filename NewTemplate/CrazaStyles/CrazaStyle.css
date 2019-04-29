@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Secular+One');
+
+body {
+    direction: rtl;
+    background-image: url('../images/back.jpg');
+    background-position: right;
+    background-size: cover;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+.active {
+    background-color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 70px;
+    display: block;
+    color: #ff006e;
+    font-family: 'Secular One', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff006e;
+    border-radius: 10px;
+}
+li {
+    float: right;
+    font-family: Tahoma;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #b35fe6;
+        }
+p {
+    font-family: Tahoma;
+    margin-top: 6px;
+    padding:6px;
+    text-align: center;
+    color: #ff006e;
+    font-size: 20px;
+
+}
+#fifty {
+    width:400px;
+    height:500px;
+    padding: 20px;
+    margin-top: 7px;
+}
+#myDiv {
+    width: 100px;
+    height: 30px;
+    background-color: lightblue;
+
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+    #myDiv:hover {
+        width: 120px;
+        height: 30px;
+        background-color: darkturquoise;
+    }

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Secular+One');
+
+body {
+    direction: rtl;
+    background-image: url('../images/back.jpg');
+    background-position: right;
+    background-size: cover;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+/*העמוד הנוכחי*/
+.active {
+    background-color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 70px;
+    display:block;
+    color: #ff006e;
+    font-family: 'Secular One', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff006e;
+    border-radius: 10px;
+}
+li {
+    float: right;
+    font-family: Tahoma;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #b35fe6;
+        }
+p {
+    font-family: Tahoma;
+    margin-top: 6px;
+    padding:6px;
+    text-align: center;
+    color: #ff006e;
+    font-size: 20px;
+
+}
+#before, #after {
+    width: 350px;
+    height:200px;
+    margin-top: 7px;
+}
+#beforeMelel{
+    font-family: Tahoma;
+    display:inline;
+    margin-top: 10px;
+    color: blueviolet;
+    font-size: 20px;
+    height:200px;
+    width:350px;
+    position:center;
+    right:320px;
+    text-align:center
+}
+b {
+    font-family: Tahoma;
+    color: black;
+    font-size: 20px;
+    height: 200px;
+    width: 350px;
+}
+iframe{
+    padding: 10px 10px;
+    align-content:center;
+}
+
