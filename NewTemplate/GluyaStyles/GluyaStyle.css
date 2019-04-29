@@ -9,6 +9,7 @@ body {
 #container {
     width: 960px;
     margin: 0 auto;
+    position: center;
 }
 .active {
     background-color: blueviolet;
@@ -70,3 +71,17 @@ p {
     height: 250px;
     margin-top: 7px;
 }
+#PicSlide {
+    margin-top: 20px;
+    margin-bottom:20px;
+    width: 350px;
+    height: 200px;
+    background-image: url('../images/slides.png');
+    transition: 1s;
+}
+
+div#PicSlide:hover {
+    background-position: 0 -200px;
+}
+
+
