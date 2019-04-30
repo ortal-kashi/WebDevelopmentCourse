@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Secular+One');
+
+body {
+    direction: rtl;
+    background-image: url('../images/back.jpg');
+    background-position: right;
+    background-size: cover;
+}
+/*רזולוציה*/
+#container {
+    width: 960px;
+    margin: 0 auto;
+    position: center;
+}
+/*העמוד הנוכחי*/
+.active {
+    background-color: blueviolet;
+}
+/*כותרת האתר*/
+h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 70px;
+    display:block;
+    color: #ff006e;
+    font-family: 'Secular One', sans-serif;
+}
+/*כותרת העמוד*/
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+/*תפריט הניווט שלי*/
+ul {
+    list-style-type: none;
+    margin: 20px 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff006e;
+    border-radius: 10px;
+}
+li {
+    float: right;
+    font-family: Tahoma;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+        /*הובר על העמודים הלא פעילים*/
+        li a:hover:not(.active) {
+            background-color: #b35fe6;
+        }
+        /*פסקאות בעמוד*/
+p {
+    font-family: Tahoma;
+    margin-top: 6px;
+    padding:6px;
+    text-align: center;
+    color: #ff006e;
+    font-size: 20px;
+}
+/*תמונות לפני ואחרי, מיקום וגודל*/
+#before, #after {
+    width: 350px;
+    height:200px;
+    margin-top: 7px;
+}
+/*עיצוב המלל שנמצא מתחת לתמונות הלפני ואחרי*/
+#beforeMelel{
+    font-family: Tahoma;
+    display:inline;
+    margin-top: 10px;
+    color: blueviolet;
+    font-size: 20px;
+    height:200px;
+    width:350px;
+    position:center;
+    right:320px;
+    text-align:center
+}
+/*בולד המיני כותרות "לפני" ו"אחרי"*/
+b {
+    font-family: Tahoma;
+    color: black;
+    font-size: 20px;
+    height: 200px;
+    width: 350px;
+}
+/*עיצוב ומיקום הסרטון*/
+iframe{
+    padding: 10px 10px;
+    align-content:center;
+}
+
