@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Secular+One');
+body { /*רקע*/
+    direction: rtl;
+    text-align: center;
+    background-image: url('../images/rekah.png');
+
+    background-size:cover;
+}
+
+/*רזולוציה*/
+#container {
+    width: 960px;
+    margin: 0 auto;
+    position: center;
+}
+header { /*מיקום ההדר*/
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.logo { /*הלוגו של HIT*/
+    width: 200px;
+    height: 120px;
+}
+
+
+h1 { /*כותרת ראשית בגודלה*/
+    margin:20px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+h2 { /*כותרת שניה בגודלה*/
+    margin: 20px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    color:teal;
+}
+
+.formSelect { /*בחירת  הפרטים בהם מעוניינים*/
+    padding: 9px 0;
+    width: 105%;
+    font-family: 'Secular One', sans-serif;
+}
+
+img { /*גודל התמונות*/
+    height: 120px;
+    width: 120px;
+    margin:20px;
+    display:inline-block;
+  
+}
+.imageContainer { /*מיקום וסידור שלושת התמונות*/
+    position: relative;
+    display:inline-block;
+}
+
+.image { /*פונקצית הובר על שלושת התמונות*/
+    opacity: 1;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding:20px;
+}
+.imgClick:hover{ /*פונקצית הובר על מעבר לתוצרים*/
+    opacity:0.5;
+}
+.middle { /*פונקצית הובר על שלושת התמונות*/
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imageContainer:hover .image { /*פונקצית הובר על שלושת התמונות*/
+    opacity: 0.3;
+}
+
+.imageContainer:hover .middle { /*פונקצית הובר על שלושת התמונות*/
+    opacity: 1;
+}
+
+.text {/*טקסט של ההובר של התמונות*/
+    background-color: teal;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    padding: 16px 32px;
+    letter-spacing:2px;
+}
+.text2 {/*טקסט של תוצרי הבוגרים*/
+    background-color: black;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    padding: 16px 32px;
+    letter-spacing: 2px;
+}
+.submitPress {/*לחצן השלח*/
+    margin: 20px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+}
+
+form { /*מיקום ועיצוב הטופס*/
+    width: 30%;
+    position: relative;
+    right: 35%;
+    font-family: 'Secular One', sans-serif;
+}
+.formInput {/*המלל המוכנס לטופס*/
+    font-family: 'Secular One', sans-serif;
+    padding: 8px;
+    display: block;
+    width: 100%
+}
+label {/*המלל שבטופס*/
+    padding:20px;
+    font-family: 'Secular One', sans-serif;
+}
+#feedback {/*הודעת האישור*/
+    padding: 20px;
+    font-family: 'Secular One', sans-serif;
+}

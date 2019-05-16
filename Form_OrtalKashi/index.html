@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>דף נחיתה</title>
+    <meta name="description" content="דף נחיתה וטופס הרשמה למידע נוסף אודות תואר בטכנולוגיות למידה" />
+    <meta name="keywords" content="טופס, הרשמה, ניוזלטר, צור קשר, טכנולוגיות למידה, תואר, HIT" />
+    <meta name="author" content="אורטל קשי" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img class="logo" src="images/logo50.png" alt="logo">
+            <h1>הפקולטה לטכנולוגיות למידה גאה להציג את התחום הטכנולוגי שיסדר אתכם בחיים: הייטק בלמידה ולמידה בהייטק</h1>
+        </header>
+        <center>
+            <div class="imageContainer">
+                <img class="image" src="images/Code_color.png" alt="code and programming" /><!--תכנות-->
+                <div class="middle">
+                    <div class="text"> תכנות</div>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <img class="image" src="images/Dessign_color.png" alt="graphic design" /><!--עיצוב גרפי-->
+                <div class="middle">
+                    <div class="text"> עיצוב</div>
+                </div>
+            </div>
+            <div class="imageContainer">
+                <img class="image" src="images/Present_color.png" alt="instruction and training" /><!--הדרכה-->
+                <div class="middle">
+                    <div class="text"> הדרכה</div>
+                </div>
+            </div>
+            <h2>מעוניין לראות תוצרים של בוגרי התואר?</h2> <!--קישור לאתר התוצרים-->
+            <div class="imageContainer">
+                <a href="telemview.telem-hit.net/">
+                    <img class="imgClick"src="images/click.png" alt="click to view examples" style="width:500px;height:350px;border:0">
+                    <div class="middle">
+                        <div class="text2"> לחץ כאן!</div>
+                    </div>
+
+                </a>
+            </div>
+        </center>
+        <form><!--הטופס שלי-->
+            <h2>
+                בואו נשמור על קשר!
+            </h2>
+            <input type="hidden" id="myEmail" name="name" value="ortalka18@gmail.com">
+            <label for="myFirstName"> שם פרטי  <br /> <input class="formInput" type="text" id="myFirstName" placeholder="הכנס שם פרטי" /> </label>
+            <br />
+            <label for="myLastName"> שם משפחה  <br /> <input class="formInput" type="text" id="myLastName" placeholder="הכנס שם משפחה" /> </label>
+            <br />
+            <label for="tel"> מספר טלפון <br /><input class="formInput" type="text" id="tel" placeholder="  הכנס את מספר הנייד שלך" />  </label>
+            <br />
+            <label for="email"> כתובת מייל<br> <input class="formInput"  type="text" id="email" placeholder="הכנס את כתובת האי-מייל שלך" /> </label>
+            <br />
+            <label for="mySelection">
+                שלחו לי פרטים על:<br />
+                <select class="formSelect" id="mySelection">
+                    <option value="1"> תואר ראשון</option>
+                    <option value="2"> תואר שני</option>
+                    <option value="3"> לימודי תעודה</option>
+                </select>
+            </label>
+            <br />
+            <input class="submitPress" type="submit" id="sendForm" value="שלח">
+           
+            <div id="feedback"></div>
+
+        </form>
+    </div>
+    <hr /> <!--הוספתי על מנת שיהיה חוצץ בין לחץן השלח לבין סוף העמוד-->
+</body>
+
+</html>
