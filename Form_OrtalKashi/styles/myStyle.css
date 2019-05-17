@@ -2,10 +2,11 @@
 body { /*רקע*/
     direction: rtl;
     text-align: center;
-    background-image: url('../images/rekah.png');
-
+    background-image: url('../images/rek.jpg');
     background-size:cover;
+    background-position:center;
 }
+
 
 /*רזולוציה*/
 #container {
